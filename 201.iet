@@ -1,0 +1,2759 @@
+// chapter:2 - 1
+[debug_scenario_no no="None"]
+
+*sure1
+
+	[spflag_set name="chapter201" num="1"]
+
+	[debug_scenario_no no="None"]
+
+	[chapter no="2"]
+
+	[debug_scenario_no no="None"]
+
+	[purchase_check key="2"]
+
+	[debug_scenario_no no="100007518"]
+
+	[bg_change name="bg6001" mode="F_FADE" count="1"]
+
+	[se_play no="560" count="0"]
+
+	[txtwaitset count="3"]
+
+	[batch]
+
+	[debug_scenario_no no="100007521"]
+
+	[bg_change name="bg6006" mode="F_FADE" count="3"]
+
+	[txtwaitset count="4"]
+
+	[batch]
+
+	[debug_scenario_no no="100007523"]
+
+	[bg_change name="bg6007" mode="F_FADE" count="6"]
+
+	[txtwaitset count="1"]
+
+	[batch]
+
+	[debug_scenario_no no="100007526"]
+
+	[bg_change name="bg6008" mode="F_FADE" count="3"]
+
+	[txtwaitset count="2"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg6009" mode="F_FADE" count="2"]
+
+	[txtwaitset count="3"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg6010" mode="F_FADE" count="3"]
+
+	[txtwaitset count="6"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg6011" mode="F_FADE" count="18"]
+
+	[txtwaitset count="2"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg6012" mode="F_FADE" count="120"]
+
+	[txtwaitset count="3"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="120"]
+
+	[txtwaitset count="48"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg7203" mode="F_FADE" count="180"]
+
+	[txtwaitset count="300"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="180"]
+
+	[se_stop]
+
+	[txtwaitset count="180"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[batch]
+
+	[debug_scenario_no no="100007533"]
+
+	[bg_change name="ev02405" mode="F_FADE" count="60"]
+
+	[se_play no="567" count="0"]
+
+	[mainwin_open type="2"]
+
+	[voice_play no="0010340"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="真是个没办法的爱管闲事的女人啊。"]
+
+	[debug_scenario_no no="100007536"]
+
+	[voice_play no="0010341"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="就算你再怎么喜欢哥哥，死后如果一直有恋物癖的话，我也很难做出反应。"]
+
+	[debug_scenario_no no="100007538"]
+
+	[bg_change name="bg0136" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="就像乌云滚滚涌起一样，倒在地上的尸体开始爬起来。。"]
+
+	[debug_scenario_no no="100007540"]
+
+	[maintext bt="1" text="这是幻觉吗……还是说，是梦幻呢……。"]
+
+	[debug_scenario_no no="100007542"]
+
+	[maintext bt="1" text="山茶妃的脸上布满了死亡的阴影，脸上充满了冰冻般的美丽。。"]
+
+	[debug_scenario_no no="100007544"]
+
+	[maintext bt="1" text="现在椿妃是这个令人忌讳的死亡世界的女王。"]
+
+	[debug_scenario_no no="100007547"]
+
+	[bg_change name="ev02405" mode="F_FADE" count="60"]
+
+	[bgm_play no="18" count="30"]
+
+	[se_stop]
+
+	[voice_play no="0060536"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="把哥哥带到这个世界，是很容易的事情。"]
+
+	[debug_scenario_no no="100007548"]
+
+	[voice_play no="0060537"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="但是……现在的我不高兴。"]
+
+	[debug_scenario_no no="100007551"]
+
+	[voice_play no="0060538"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="引入冥界，洗脑……创造出只有我和哥哥两个人的世界……。"]
+
+	[debug_scenario_no no="100007554"]
+
+	[voice_play no="0060539"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="那样过家家的话，是不能满足的。"]
+
+	[debug_scenario_no no="100007555"]
+
+	[voice_play no="0060540"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="我对哥哥的执着和留恋……那种程度还不够——。"]
+
+	[debug_scenario_no no="100007558"]
+
+	[voice_play no="0060541"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="呵呵，怎么办呢——。"]
+
+	[debug_scenario_no no="100007561"]
+
+	[voice_play no="0060542"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="如果哥哥为对不起我而潸然泪下的话，也许心里会有几分难受。。"]
+
+	[debug_scenario_no no="100007564"]
+
+	[voice_play no="0060543"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="但是在那之前，必须要好好安慰他——。"]
+
+	[debug_scenario_no no="100007565"]
+
+	[voice_play no="0060544"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="充分地。"]
+
+	[debug_scenario_no no="100007567"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="椿妃的表情扭曲了。"]
+
+	[debug_scenario_no no="100007568"]
+
+	[maintext bt="1" text="爱憎混杂，令人毛骨悚然的微笑。。"]
+
+	[debug_scenario_no no="100007571"]
+
+	[bg_change name="ev02405" mode="F_FADE" count="60"]
+
+	[voice_play no="0010342"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="……不管去哪里抖S都会出现的。"]
+
+	[debug_scenario_no no="100007573"]
+
+	[bg_change name="bg0541" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="没有声音，尸体们站了起来。"]
+
+	[debug_scenario_no no="100007575"]
+
+	[maintext bt="1" text="在被空虚的寂静包围的暗夜中，影子开始摇曳。"]
+
+	[debug_scenario_no no="100007577"]
+
+	[se_play no="219" count="0"]
+
+	[maintext bt="1" text="不是在黑暗中有尸体，而是在尸体的间隙黑暗在窥探……那群烧死的尸体。"]
+
+	[debug_scenario_no no="100007579"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="到现在为止，我见过影子沸腾的景象。。"]
+
+	[debug_scenario_no no="100007580"]
+
+	[maintext bt="1" text="像听持一样召唤影子的家伙也……。"]
+
+	[debug_scenario_no no="100007582"]
+
+	[maintext bt="1" text="そして影を操って人を死に至らしめるような、そんな危ないヤツも見てきた。"]
+
+	[debug_scenario_no no="100007584"]
+
+	[maintext bt="1" text="但是……椿妃别具一格。。"]
+
+	[debug_scenario_no no="100007585"]
+
+	[maintext bt="1" text="产生的影子太多了。"]
+
+	[debug_scenario_no no="100007587"]
+
+	[maintext bt="1" text="竟然能创造出如此凄惨的死亡世界……。"]
+
+	[debug_scenario_no no="100007590"]
+
+	[bg_change name="ev07511" mode="F_FADE" count="60"]
+
+	[voice_play no="0010343"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="死得多么悲惨，才能生出这样的地狱啊。"]
+
+	[debug_scenario_no no="100007593"]
+
+	[voice_play no="0060545"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="我在生气哦。"]
+
+	[debug_scenario_no no="100007596"]
+
+	[voice_play no="0060546"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="哥哥把我忘了——。"]
+
+	[debug_scenario_no no="100007599"]
+
+	[voice_play no="0060547"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="不，不光是哥哥。"]
+
+	[debug_scenario_no no="100007600"]
+
+	[voice_play no="0060548"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="仅仅经过了60多年，这个国家的人们……忘记了残忍死去的我们。"]
+
+	[debug_scenario_no no="100007603"]
+
+	[voice_play no="0060549"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="虽然生活在因空袭而烧焦的大量尸体上，却不想回顾过去。。"]
+
+	[debug_scenario_no no="100007606"]
+
+	[voice_play no="0060550"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="不知道在多少血上，有多少我们的生活。。"]
+
+	[debug_scenario_no no="100007609"]
+
+	[voice_play no="0060551"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="所以，我们在生气。"]
+
+	[debug_scenario_no no="100007612"]
+
+	[voice_play no="0060552"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="马上……这个世界上出现了塔。"]
+
+	[debug_scenario_no no="100007613"]
+
+	[voice_play no="0060553"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="是一座连接着人的怨恨和叹息的塔。"]
+
+	[debug_scenario_no no="100007615"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="我觉得是作祟的一块。。"]
+
+	[debug_scenario_no no="100007617"]
+
+	[maintext bt="1" text="椿妃だけじゃない。"]
+
+	[debug_scenario_no no="100007618"]
+
+	[maintext bt="1" text="这是曾经因空袭而烧毁的东京街道的全部作祟。。"]
+
+	[debug_scenario_no no="100007620"]
+
+	[maintext bt="1" text="千夜前辈……。"]
+
+	[debug_scenario_no no="100007621"]
+
+	[maintext bt="1" text="竟然让可怕的东西觉醒了……。"]
+
+	[debug_scenario_no no="100007623"]
+
+	[maintext bt="1" text="山茶妃的眼睛闪烁着，就像涌过来的波浪一样。"]
+
+	[debug_scenario_no no="100007625"]
+
+	[maintext bt="1" text="——真奇怪啊。"]
+
+	[debug_scenario_no no="100007628"]
+
+	[bg_change name="ev07511" mode="F_FADE" count="60"]
+
+	[voice_play no="0060554"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="我们不允许改变世界。"]
+
+	[debug_scenario_no no="100007630"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="这家伙的目标不是我吗？"]
+
+	[debug_scenario_no no="100007631"]
+
+	[maintext bt="1" text="虽然不知道是因为什么原因而丧命，但是愤怒的方向开始偏离了吗？"]
+
+	[debug_scenario_no no="100007633"]
+
+	[maintext bt="1" text="椿妃的话语中，没有当初感受到的热度。"]
+
+	[debug_scenario_no no="100007634"]
+
+	[maintext bt="1" text="简直就像是在强迫别人说话似的。"]
+
+	[debug_scenario_no no="100007636"]
+
+	[bg_change name="bg0541" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="死尸成行。"]
+
+	[debug_scenario_no no="100007637"]
+
+	[bgm_stop count="30"]
+
+	[maintext bt="1" text="在那个中央，山茶妃像是跟随尸体一样站着。"]
+
+	[debug_scenario_no no="100007640"]
+
+	[bg_change name="ev07511" mode="F_FADE" count="60"]
+
+	[bgm_play no="11" count="30"]
+
+	[voice_play no="0060555"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="所有的街道、山丘，都被烧尽。"]
+
+	[debug_scenario_no no="100007641"]
+
+	[voice_play no="0060556"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="切开大地，挖掘出巨大的墓穴。"]
+
+	[debug_scenario_no no="100007644"]
+
+	[voice_play no="0060557"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="我知道人会有各种各样的死法。"]
+
+	[debug_scenario_no no="100007647"]
+
+	[voice_play no="0060558"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="死太理所当然了，没必要一一说出来。"]
+
+	[debug_scenario_no no="100007648"]
+
+	[voice_play no="0060559"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="但是……大胆地说吧——。"]
+
+	[debug_scenario_no no="100007651"]
+
+	[bg_change name="bg6007" mode="F_FADE" count="60"]
+
+	[voice_play no="0060560"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="60年前，我们失去了自己。"]
+
+	[debug_scenario_no no="100007652"]
+
+	[bg_change name="bg6008" mode="F_FADE" count="60"]
+
+	[voice_play no="0060561"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="极限状态将人变成野兽，地狱在这个世界上出现。"]
+
+	[debug_scenario_no no="100007655"]
+
+	[bg_change name="bg6009" mode="F_FADE" count="60"]
+
+	[voice_play no="0060562"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="野兽们把世界变成了血海。"]
+
+	[debug_scenario_no no="100007656"]
+
+	[bg_change name="bg6010" mode="F_FADE" count="60"]
+
+	[voice_play no="0060563"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="被称为战争的可怕怪物压垮，就像波浪一样失去了人的生命。。"]
+
+	[debug_scenario_no no="100007659"]
+
+	[bg_change name="bg6011" mode="F_FADE" count="60"]
+
+	[voice_play no="0060564"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="有各种各样的死法。。"]
+
+	[debug_scenario_no no="100007662"]
+
+	[voice_play no="0060565"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="人的丑陋才是地狱。"]
+
+	[debug_scenario_no no="100007665"]
+
+	[voice_play no="0060566"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="患病的身体僵直，僵直地咬断舌头，死亡。"]
+
+	[debug_scenario_no no="100007668"]
+
+	[voice_play no="0060567"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="伤口的毒在头上旋转，被疯狂包围着死去。"]
+
+	[debug_scenario_no no="100007671"]
+
+	[voice_play no="0060568"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="手脚麻木，身体像鸟一样跳动而死。。"]
+
+	[debug_scenario_no no="100007674"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[voice_play no="0060569"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="在没有阳光照射的黑暗深处，我闻到了死神的味道……。"]
+
+	[debug_scenario_no no="100007677"]
+
+	[bg_change name="bg0601" mode="F_FADE" count="60"]
+
+	[voice_play no="0060570"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="我……永远忘不了这个味道……。"]
+
+	[debug_scenario_no no="100007680"]
+
+	[voice_play no="0060571"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="腐烂、化脓的伤口的味道。"]
+
+	[debug_scenario_no no="100007681"]
+
+	[voice_play no="0060572"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="落在黑暗中的人发出的，汗和吐泻物混合的，腐烂的香味……。"]
+
+	[debug_scenario_no no="100007684"]
+
+	[voice_play no="0060573"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="这也是死去的人发出的独特臭味——。"]
+
+	[debug_scenario_no no="100007687"]
+
+	[voice_play no="0060574"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="直到死亡的瞬间，人的意识都很清楚。"]
+
+	[debug_scenario_no no="100007690"]
+
+	[bg_change name="bg0560" mode="F_FADE" count="60"]
+
+	[voice_play no="0060575"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="被疯狂所折磨，发出不堪入耳的话语，被带入黑暗深处的错觉所囚禁，人就这样死去。"]
+
+	[debug_scenario_no no="100007693"]
+
+	[voice_play no="0060576"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="那就是人的死——。"]
+
+	[debug_scenario_no no="100007696"]
+
+	[voice_play no="0060577"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="有时也会看到不可思议的死亡方式。"]
+
+	[debug_scenario_no no="100007699"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[voice_play no="0060578"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="和应该闭着眼睛死去的家人说话的人，就这样被淡淡的光包围着……安详地死去。。"]
+
+	[debug_scenario_no no="100007702"]
+
+	[bg_change name="bg0153" mode="F_FADE" count="60"]
+
+	[voice_play no="0060579"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="看到这种情景的时候，我知道死后的世界真的存在。"]
+
+	[debug_scenario_no no="100007705"]
+
+	[voice_play no="0060580"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="如果死后的世界存在的话，我死后也一定会在这个世界上留下我的记忆吧。"]
+
+	[debug_scenario_no no="100007708"]
+
+	[voice_play no="0060581"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="不知不觉间，除了与死亡对峙之外，什么都无法想象。"]
+
+	[debug_scenario_no no="100007709"]
+
+	[voice_play no="0060582"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="人太死了，活的感觉都没有了。"]
+
+	[debug_scenario_no no="100007712"]
+
+	[voice_play no="0060583"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="最让人讨厌的是，我自己把这种情景当做理所当然的事情开始度过。"]
+
+	[debug_scenario_no no="100007715"]
+
+	[bg_change name="bg0601" mode="F_FADE" count="60"]
+
+	[voice_play no="0060584"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="死神的香味，我自己也开始闻到了——。"]
+
+	[debug_scenario_no no="100007718"]
+
+	[voice_play no="0060585"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="我已经和死神一样了……。"]
+
+	[debug_scenario_no no="100007721"]
+
+	[voice_play no="0060586"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="这不叫地狱，叫什么地狱呢——。"]
+
+	[debug_scenario_no no="100007723"]
+
+	[bg_change name="ev07511" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="椿妃的样子很异常。"]
+
+	[debug_scenario_no no="100007724"]
+
+	[maintext bt="1" text="喋喋不休地喋喋不休，这不是扬声器吗？。"]
+
+	[debug_scenario_no no="100007726"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="难道是——。"]
+
+	[debug_scenario_no no="100007729"]
+
+	[bg_change name="ev07511" mode="F_FADE" count="60"]
+
+	[voice_play no="0060587"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="大家都死了。"]
+
+	[debug_scenario_no no="100007730"]
+
+	[bgm_stop count="30"]
+
+	[voice_play no="0060588"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="我也——死了——。"]
+
+	[debug_scenario_no no="100007732"]
+
+	[bg_change name="bg0540" mode="F_FADE" count="60"]
+
+	[se_play no="563" count="0"]
+
+	[maintext bt="1" text="就像火焰在飘荡一样，带着尸体的椿妃接近了我。。"]
+
+	[debug_scenario_no no="100007735"]
+
+	[bg_change name="ev07511" mode="F_FADE" count="60"]
+
+	[voice_play no="0060589"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="无处可去的我的灵魂，在这个世界——。"]
+
+	[debug_scenario_no no="100007737"]
+
+	[bg_change name="bg0147" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="腿不动。。"]
+
+	[debug_scenario_no no="100007738"]
+
+	[maintext bt="1" text="身体僵硬，无法逃走。"]
+
+	[debug_scenario_no no="100007740"]
+
+	[maintext bt="1" text="使眼睛妖艳发光的椿妃。"]
+
+	[debug_scenario_no no="100007741"]
+
+	[maintext bt="1" text="不是这个世界上的人，而是像死神一样令人毛骨悚然。"]
+
+	[debug_scenario_no no="100007744"]
+
+	[bg_change name="ev02405" mode="F_FADE" count="60"]
+
+	[voice_play no="0060590"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="一直——为了和哥哥相遇——。"]
+
+	[debug_scenario_no no="100007746"]
+
+	[se_stop]
+
+	[maintext bt="1" text="就在椿妃的手臂逼近眼前的那一瞬间。"]
+
+	[debug_scenario_no no="100007749"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="42"]
+
+	[voice_play no="0040082"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="哥哥！离开我！"]
+
+	[debug_scenario_no no="100007754"]
+
+	[bg_change name="bg0002" mode="F_FADE" count="24"]
+
+	[bgm_play no="17" count="30"]
+
+	[shake dir="SD_ALL" level="SL_HEAVY" time="500"]
+	[se_play no="036" count="0"]
+
+
+	[maintext bt="1" text="突然把手向后拉倒，爆炸的闪光和轰鸣声烧遍了周围。。"]
+
+	[debug_scenario_no no="100007756"]
+
+	[maintext bt="1" text="即使闭上眼睛，也会像白天一样眼白。"]
+
+	[debug_scenario_no no="100007757"]
+
+	[se_stop]
+
+	[maintext bt="1" text="被投掷了自制的闪光弹……能做这种事的是——。"]
+
+	[debug_scenario_no no="100007760"]
+
+	[bg_change name="bg0102" mode="F_FADE" count="42"]
+
+	[chara_app name="YUKI" body="000" face="009" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040083"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="说是一天限定吧？"]
+
+	[debug_scenario_no no="100007763"]
+
+	[voice_play no="0040084"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="日期已经变了！"]
+
+	[debug_scenario_no no="100007764"]
+
+	[chara_app name="YUKI" body="000" face="008" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040085"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="我要把哥哥还给我！"]
+
+	[debug_scenario_no no="100007767"]
+
+	[chara_app name="YUKI" body="000" face="009" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040086"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="哥哥，快跑！"]
+
+	[debug_scenario_no no="None"]
+
+	[chara_del name="YUKI" count="30"]
+
+	[batch]
+
+	[debug_scenario_no no="100007769"]
+
+	[bg_change name="bg0002" mode="F_FADE" count="24"]
+
+	[maintext bt="1" text="忧姬拉着倒下的我的手臂。"]
+
+	[debug_scenario_no no="100007770"]
+
+	[maintext bt="1" text="但是，身体弱的她没有唤醒我的力量吗？。"]
+
+	[debug_scenario_no no="100007772"]
+
+	[maintext bt="1" text="眼睛还是那么的耀眼，无法恢复视线。"]
+
+	[debug_scenario_no no="100007773"]
+
+	[maintext bt="1" text="我气势汹汹地起身，抓住伸到眼前的手跑了出去。"]
+
+	[debug_scenario_no no="100007776"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="120"]
+
+	[bgm_stop count="30"]
+
+	[mainwin_close]
+
+	[txtwaitset count="120"]
+
+	[speaker name="***" id="hoge"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[batch]
+
+	[debug_scenario_no no="100007778"]
+
+	[se_play no="245" count="0"]
+
+	[mainwin_open type="2"]
+
+	[maintext bt="1" text="…………。"]
+
+	[debug_scenario_no no="100007780"]
+
+	[maintext bt="1" text="………………。"]
+
+	[debug_scenario_no no="100007782"]
+
+	[maintext bt="1" text="从椿妃和周围包围着的尸体们，全速逃走。"]
+
+	[debug_scenario_no no="100007784"]
+
+	[maintext bt="1" text="因为反正忧姬的脚很慢，所以硬是背着她跑。"]
+
+	[debug_scenario_no no="100007786"]
+
+	[maintext bt="1" text="但是，明明是忧姬……好重啊。"]
+
+	[debug_scenario_no no="100007787"]
+
+	[maintext bt="1" text="每迈出一步一步，重量就会压在膝盖上，无法顺利前进。"]
+
+	[debug_scenario_no no="100007789"]
+
+	[maintext bt="1" text="移动得太慢了。"]
+
+	[debug_scenario_no no="100007790"]
+
+	[se_stop]
+
+	[maintext bt="1" text="这样下去的话，会被他们追上——。"]
+
+	[debug_scenario_no no="100007793"]
+
+	[bg_change name="bg0102" mode="F_FADE" count="60"]
+
+	[bgm_play no="09" count="30"]
+
+	[voice_play no="0040087"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="待って～～～！"]
+
+	[debug_scenario_no no="100007796"]
+
+	[voice_play no="0040088"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="哥哥，好快啊～～！"]
+
+	[debug_scenario_no no="100007798"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="忧姬愚蠢的哭声，朝着我的背向我投去。。"]
+
+	[debug_scenario_no no="100007800"]
+
+	[maintext bt="1" text="也许是受刚才吞食的闪光的影响吧，眼睛还没有习惯黑暗中。"]
+
+	[debug_scenario_no no="100007801"]
+
+	[maintext bt="1" text="即使回头，也只会看到拼命奔跑的模糊轮廓。"]
+
+	[debug_scenario_no no="100007804"]
+
+	[bg_change name="bg0102" mode="F_FADE" count="60"]
+
+	[chara_app name="YUKI" body="000" face="023" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040089"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="待ってよ～～～～！"]
+
+	[debug_scenario_no no="100007807"]
+
+	[chara_app name="YUKI" body="000" face="025" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040090"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="せっかく助けてあげたのに、わたし置いて逃げるってひどいよ～～～！！"]
+
+	[debug_scenario_no no="100007810"]
+
+	[voice_play no="0010344"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="はて……？"]
+
+	[debug_scenario_no no="100007811"]
+
+	[voice_play no="0010345"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="後ろに憂姫がいるということは、オレが背負っているものは……いったい……？"]
+
+	[debug_scenario_no no="100007813"]
+
+	[maintext bt="1" text="背中に触れるおっぱいの大きさに、ぞくりとした恐怖を感じた。"]
+
+	[debug_scenario_no no="100007816"]
+
+	[chara_app name="YUKI" body="000" face="018" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040091"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="って、どうして椿妃さんまで連れてきてるんだよぉ～～～～！！"]
+
+	[debug_scenario_no no="100007819"]
+
+	[chara_app name="YUKI" body="000" face="025" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040092"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="お兄ちゃんのばかーーーーー！！"]
+
+	[debug_scenario_no no="100007822"]
+
+	[chara_app name="YUKI" body="000" face="013" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040093"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="お兄ちゃんのゴミ～～～～～～！！"]
+
+	[debug_scenario_no no="None"]
+
+	[chara_del name="YUKI" count="30"]
+
+	[batch]
+
+	[debug_scenario_no no="100007824"]
+
+	[bg_change name="bg0002" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="オレが背負っていたのは、椿妃だった。"]
+
+	[debug_scenario_no no="100007825"]
+
+	[maintext bt="1" text="目が眩んだ瞬間掴んだ腕は、憂姫のものではなかったらしい。"]
+
+	[debug_scenario_no no="100007828"]
+
+	[bg_change name="bg0102" mode="F_FADE" count="60"]
+
+	[voice_play no="0010346"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="ち……違うんだ憂姫。"]
+
+	[debug_scenario_no no="100007829"]
+
+	[voice_play no="0010347"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="超絶間違えたんだ、本当だ！！"]
+
+	[debug_scenario_no no="100007832"]
+
+	[chara_app name="YUKI" body="000" face="023" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040094"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="はぁ～、もう……お兄ちゃんは、本当にしょうがないなぁ……。"]
+
+	[debug_scenario_no no="100007835"]
+
+	[chara_app name="YUKI" body="000" face="007" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040095"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="自分を殺そうとしてる相手を、真っ先に連れて行くなんてどうかしてるよ。"]
+
+	[debug_scenario_no no="100007838"]
+
+	[voice_play no="0010348"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="……そういえば、死体どもは追ってこないな。"]
+
+	[debug_scenario_no no="100007841"]
+
+	[chara_app name="YUKI" body="000" face="012" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040096"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="コントロールしてる椿妃さんが、こんなだもん。"]
+
+	[debug_scenario_no no="None"]
+
+	[chara_del name="YUKI" count="30"]
+
+	[batch]
+
+	[debug_scenario_no no="100007844"]
+
+	[chara_app name="TSUBAKI" body="001" face="030" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0060591"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="…………きゅ～……。"]
+
+	[debug_scenario_no no="None"]
+
+	[chara_del name="TSUBAKI" count="30"]
+
+	[batch]
+
+	[debug_scenario_no no="100007846"]
+
+	[maintext bt="1" text="椿妃は憂姫の炸裂させた閃光弾の直撃を受けたためか、目を回していた。"]
+
+	[debug_scenario_no no="100007849"]
+
+	[chara_app name="YUKI" body="000" face="001" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040097"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="音と光によって敵の行動を封じ込める、フラッシュバンを使ったんだよ。"]
+
+	[debug_scenario_no no="100007852"]
+
+	[voice_play no="0040098"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="170デシベルの大音響と、200万カンデラの発光。"]
+
+	[debug_scenario_no no="100007853"]
+
+	[bgm_stop count="30"]
+
+	[voice_play no="0040099"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="直撃を受けたら圧倒されて、視覚聴覚障害でダウンしてしまう。"]
+
+	[debug_scenario_no no="100007855"]
+
+	[maintext bt="1" text="オレは背負っていた椿妃を慎重に草地に降ろし、憂姫に向き合う。"]
+
+	[debug_scenario_no no="100007858"]
+
+	[bgm_play no="27" count="30"]
+
+	[voice_play no="0010349"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="……シャレじゃ済まなくなったな……。"]
+
+	[debug_scenario_no no="100007861"]
+
+	[chara_app name="YUKI" body="000" face="010" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040100"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="お兄ちゃんは本当、あの世に片足突っ込むのが好きだよね。"]
+
+	[debug_scenario_no no="100007863"]
+
+	[chara_app name="YUKI" body="000" face="004" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[maintext bt="1" text="じーっと、憂姫がオレの瞳を覗き込む。"]
+
+	[debug_scenario_no no="100007866"]
+
+	[voice_play no="0040101"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="お兄ちゃんはわたしに、隠し事をしてる。"]
+
+	[debug_scenario_no no="100007869"]
+
+	[voice_play no="0010350"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="……してないぞ。"]
+
+	[debug_scenario_no no="100007872"]
+
+	[chara_app name="YUKI" body="000" face="013" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040102"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="ふーん……。"]
+
+	[debug_scenario_no no="100007873"]
+
+	[voice_play no="0040103"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="こんな事態を引き起こしても、シラを切るんだ～。"]
+
+	[debug_scenario_no no="None"]
+
+	[chara_del name="YUKI" count="30"]
+
+	[batch]
+
+	[debug_scenario_no no="100007875"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="心の底を覗くみたいに、憂姫がオレを見ていた。"]
+
+	[debug_scenario_no no="100007877"]
+
+	[maintext bt="1" text="きっと家から抜け出したあとから着けていたのだろう。"]
+
+	[debug_scenario_no no="100007878"]
+
+	[maintext bt="1" text="椿妃とオレとのやり取りを観察して、ピンチになった瞬間止めに入った。"]
+
+	[debug_scenario_no no="100007880"]
+
+	[maintext bt="1" text="もしかしたら、オレが千夜先輩のメモを手にいれてたのも気付いてるかもな。"]
+
+	[debug_scenario_no no="100007883"]
+
+	[bg_change name="bg0521" mode="F_FADE" count="60"]
+
+	[voice_play no="0010351"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="死体が蘇って、歩き回ってるだけだ。"]
+
+	[debug_scenario_no no="100007884"]
+
+	[voice_play no="0010352"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="そんなありもしないようなことでも、確率的には宝くじに連続3回当たるよりかは絶対高い。"]
+
+	[debug_scenario_no no="100007887"]
+
+	[voice_play no="0010353"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="世の中はありもしないようなことの連続だ。"]
+
+	[debug_scenario_no no="100007888"]
+
+	[voice_play no="0010354"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="いちいち気にしてたら、生きていくのが億劫になる。"]
+
+	[debug_scenario_no no="100007891"]
+
+	[voice_play no="0010355"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="椿妃もオレに言いたいことがあるみたいしな。"]
+
+	[debug_scenario_no no="100007892"]
+
+	[voice_play no="0010356"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="運命って言葉は好きじゃないが、オレに与えられた試練みたいなもんだろ。"]
+
+	[debug_scenario_no no="100007895"]
+
+	[voice_play no="0010357"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="気になるのは、どうして椿妃が復讐心を抱いているかだ。"]
+
+	[debug_scenario_no no="100007896"]
+
+	[voice_play no="0010358"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="オレのじいさんのこと、好きだったんじゃないのか……コイツ。"]
+
+	[debug_scenario_no no="100007899"]
+
+	[bg_change name="bg0102" mode="F_FADE" count="60"]
+
+	[chara_app name="YUKI" body="000" face="006" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040104"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="復讐の方が楽だからね。"]
+
+	[debug_scenario_no no="100007900"]
+
+	[chara_app name="YUKI" body="000" face="012" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040105"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="想いとか愛とか、まともに振り回してたら大変だもん。"]
+
+	[debug_scenario_no no="100007902"]
+
+	[maintext bt="1" text="静かな夜風が、丘を凪いでいた。"]
+
+	[debug_scenario_no no="100007905"]
+
+	[chara_app name="YUKI" body="000" face="007" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040106"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="気持ち悪い風だよ～。"]
+
+	[debug_scenario_no no="100007906"]
+
+	[voice_play no="0040107"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="崩壊した街の中に、黒い霧が溜まってる。"]
+
+	[debug_scenario_no no="100007908"]
+
+	[maintext bt="1" text="ここは、静寂の墓所だった……。"]
+
+	[debug_scenario_no no="100007909"]
+
+	[maintext bt="1" text="那由多が破壊した街の中に、不穏な空気と動く死体が溢れている。"]
+
+	[debug_scenario_no no="100007912"]
+
+	[chara_app name="YUKI" body="000" face="004" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040108"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="冥婚の時、祠の奥で椿妃さんの名前を見つけたんでしょ？"]
+
+	[debug_scenario_no no="100007915"]
+
+	[voice_play no="0010359"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="……ああ。"]
+
+	[debug_scenario_no no="100007916"]
+
+	[voice_play no="0010360"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="こよみも来たことあるって言ってた。"]
+
+	[debug_scenario_no no="100007919"]
+
+	[voice_play no="0010361"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="椿妃は、絶対オレ達と何か関係があるな。"]
+
+	[debug_scenario_no no="100007920"]
+
+	[voice_play no="0010362"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="血縁はないのかもしれないが、恨みとか憎しみとか、そういう激しい執着心を感じる。"]
+
+	[debug_scenario_no no="100007923"]
+
+	[voice_play no="0010363"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="もしも第一回目の冥婚に選ばれたのが椿妃で、そのあと一夜先輩が選ばれたのだとしたら……すげー因果だな。"]
+
+	[debug_scenario_no no="100007926"]
+
+	[chara_app name="YUKI" body="000" face="006" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040109"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="わたし達は前世から、同じことをぐるぐるやってるのかもね。"]
+
+	[debug_scenario_no no="100007927"]
+
+	[voice_play no="0040110"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="こんな風に……化け物に追いかけ回されながら……。"]
+
+	[debug_scenario_no no="100007930"]
+
+	[voice_play no="0010364"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="……ははは、笑えねぇ。"]
+
+	[debug_scenario_no no="100007933"]
+
+	[chara_app name="YUKI" body="000" face="012" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040111"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="千夜先輩なんでしょ？"]
+
+	[debug_scenario_no no="100007934"]
+
+	[chara_app name="YUKI" body="000" face="007" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040112"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="椿妃さんを目覚めさせたの。"]
+
+	[debug_scenario_no no="100007937"]
+
+	[voice_play no="0010365"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="…………。"]
+
+	[debug_scenario_no no="100007940"]
+
+	[voice_play no="0010366"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="…………かもな。"]
+
+	[debug_scenario_no no="100007943"]
+
+	[voice_play no="0010367"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="オレと一緒に歩いてるだけで、椿妃の思い出をなぞっているんだとよ。"]
+
+	[debug_scenario_no no="100007944"]
+
+	[voice_play no="0010368"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="ただ歩いて、帰ってきただけだぜ？"]
+
+	[debug_scenario_no no="100007947"]
+
+	[voice_play no="0010369"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="これから先どうなるか、すべての行動が裏目に出そうで……本当恐ろしい。"]
+
+	[debug_scenario_no no="100007950"]
+
+	[voice_play no="0010370"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="オレ達の普段の行動って、そんなに前世と一緒なのか？"]
+
+	[debug_scenario_no no="100007953"]
+
+	[chara_app name="YUKI" body="000" face="013" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040113"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="千夜先輩が目覚めさせたのは、もっとも恐ろしい敵だよ。"]
+
+	[debug_scenario_no no="None"]
+
+	[chara_del name="YUKI" count="30"]
+
+	[batch]
+
+	[debug_scenario_no no="100007956"]
+
+	[bg_change name="bg0338" mode="F_FADE" count="60"]
+
+	[voice_play no="0040114"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="それは過去――。"]
+
+	[debug_scenario_no no="100007957"]
+
+	[voice_play no="0040115"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="過去からは、誰も逃れられない。"]
+
+	[debug_scenario_no no="100007960"]
+
+	[bg_change name="bg0102" mode="F_FADE" count="60"]
+
+	[bgm_stop count="30"]
+
+	[chara_app name="YUKI" body="000" face="006" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040116"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="ほら、お兄ちゃんの話を聞く暇すら、与えてくれないんだから。"]
+
+	[debug_scenario_no no="None"]
+
+	[chara_del name="YUKI" count="30"]
+
+	[batch]
+
+	[debug_scenario_no no="100007962"]
+
+	[bg_change name="bg0530" mode="F_FADE" count="60"]
+
+	[se_play no="219" count="0"]
+
+	[maintext bt="1" text="死体の一つが、オレ達に近づいてきた。"]
+
+	[debug_scenario_no no="100007965"]
+
+	[bg_change name="bg0102" mode="F_FADE" count="60"]
+
+	[se_play no="567" count="0"]
+
+	[chara_app name="YUKI" body="000" face="001" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040117"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="風下に隠れようよ。"]
+
+	[debug_scenario_no no="100007966"]
+
+	[chara_app name="YUKI" body="000" face="013" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040118"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="お兄ちゃん、椿妃さんをおぶって。"]
+
+	[debug_scenario_no no="100007969"]
+
+	[voice_play no="0010371"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="でも、あの死体は椿妃が呼び寄せたんだぞ。"]
+
+	[debug_scenario_no no="100007970"]
+
+	[voice_play no="0010372"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="このまま寝かせといても、食われないだろコイツ。"]
+
+	[debug_scenario_no no="100007973"]
+
+	[chara_app name="YUKI" body="000" face="003" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040119"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="……置いてくつもり？"]
+
+	[debug_scenario_no no="100007974"]
+
+	[chara_app name="YUKI" body="000" face="008" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040120"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="お兄ちゃんの、はくじょーものー！"]
+
+	[debug_scenario_no no="None"]
+
+	[chara_del name="YUKI" count="30"]
+
+	[batch]
+
+	[debug_scenario_no no="100007976"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="憂姫に制服の袖を摘ままれ、通りを避けながら移動する。"]
+
+	[debug_scenario_no no="100007978"]
+
+	[bg_change name="bg0521" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="しんと静まりかえった街を、死体はあてども無く歩き回っていた。"]
+
+	[debug_scenario_no no="100007980"]
+
+	[maintext bt="1" text="ここは夜にだけ訪れる、死者の世界だ。"]
+
+	[debug_scenario_no no="100007981"]
+
+	[maintext bt="1" text="生きている人間は、どこにもいない。"]
+
+	[debug_scenario_no no="100007984"]
+
+	[bgm_play no="03" count="30"]
+
+	[se_stop]
+
+	[voice_play no="0010373"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="変な世界だな。"]
+
+	[debug_scenario_no no="100007985"]
+
+	[voice_play no="0010374"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="この街は那由多が焼き払って、千夜先輩が水の底に沈めた。"]
+
+	[debug_scenario_no no="100007988"]
+
+	[voice_play no="0010375"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="そして今は、椿妃が呼び寄せた死体が我が物顔で歩き回ってる。"]
+
+	[debug_scenario_no no="100007991"]
+
+	[voice_play no="0010376"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="いつも見える影とは違うな。"]
+
+	[debug_scenario_no no="100007992"]
+
+	[voice_play no="0010377"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="影みたいに現れたけど……実体があるみたいだ。"]
+
+	[debug_scenario_no no="100007995"]
+
+	[voice_play no="0040121"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="さっきの椿妃さんは、何かに操られてるみたいに見えたよ。"]
+
+	[debug_scenario_no no="100007996"]
+
+	[voice_play no="0040122"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="もしかしたらこの世界に椿妃さんが現れたの、きっかけがあったのかも――。"]
+
+	[debug_scenario_no no="100007999"]
+
+	[voice_play no="0010378"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="――きっかけ？"]
+
+	[debug_scenario_no no="100008002"]
+
+	[voice_play no="0040123"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="冥婚の祠を水没させちゃったから……。"]
+
+	[debug_scenario_no no="100008003"]
+
+	[voice_play no="0040124"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="あの祠の奥に、何かが封印されてたとしたら――。"]
+
+	[debug_scenario_no no="100008005"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="オレは首をかしげて、必死に記憶の糸を手繰った。"]
+
+	[debug_scenario_no no="100008008"]
+
+	[bg_change name="bg0521" mode="F_FADE" count="60"]
+
+	[voice_play no="0010379"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="そういえば、何かヤバイものが封印されてるって言ってたな、千夜先輩……。"]
+
+	[debug_scenario_no no="100008011"]
+
+	[voice_play no="0010380"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="出てくるとマズいから、捕まえられる奴は捕まえてるって。"]
+
+	[debug_scenario_no no="100008012"]
+
+	[voice_play no="0010381"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="でも、捕まえられるヤツが完全に身体乗っ取られてるからな、今回たぶん手も足も出ないな。"]
+
+	[debug_scenario_no no="100008015"]
+
+	[voice_play no="0040125"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="…………。"]
+
+	[debug_scenario_no no="100008018"]
+
+	[voice_play no="0040126"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="どうしよう、夏休みの心霊特集の撮影が来ちゃうよ……。"]
+
+	[debug_scenario_no no="100008021"]
+
+	[bgm_stop count="30"]
+
+	[voice_play no="0010382"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="撮影に来たテレビ局の人間がぶっ殺されなければ、な。"]
+
+	[debug_scenario_no no="100008022"]
+
+	[bgm_play no="28" count="30"]
+
+	[voice_play no="0010383"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="憂姫、アイツら幽霊に見えるか？"]
+
+	[debug_scenario_no no="100008024"]
+
+	[maintext bt="1" text="人の隠れられそうな茂みを見つけ、そこに眠ったままの椿妃を放り投げる。"]
+
+	[debug_scenario_no no="100008025"]
+
+	[bg_change name="bg0541" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="灌木の合間に身体を隠すと、オレは遠くを歩く死体に視線を移した。"]
+
+	[debug_scenario_no no="100008028"]
+
+	[voice_play no="0040127"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="…………幽霊には、見えないね。"]
+
+	[debug_scenario_no no="100008031"]
+
+	[voice_play no="0040128"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="一夜先輩は人間を遺伝子操作する技術を持っていた。"]
+
+	[debug_scenario_no no="100008032"]
+
+	[voice_play no="0040129"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="恐らく隠していた秘密の実験施設が、あの祠の奥にあったんだと思う。"]
+
+	[debug_scenario_no no="100008035"]
+
+	[voice_play no="0010384"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="おっかねー実験続けてたんだな、一夜先輩。"]
+
+	[debug_scenario_no no="100008038"]
+
+	[voice_play no="0040130"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="ううん、一夜先輩じゃないよ……。"]
+
+	[debug_scenario_no no="100008041"]
+
+	[voice_play no="0010385"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="じゃあ誰なんだよ？"]
+
+	[debug_scenario_no no="100008044"]
+
+	[voice_play no="0040131"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="一夜先輩は一体誰から、遺伝子操作の技術を教わったんだろうって。"]
+
+	[debug_scenario_no no="100008045"]
+
+	[voice_play no="0040132"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="彼女が研究を始めるもっとずっと前から、人体実験が行われてたとしたら――。"]
+
+	[debug_scenario_no no="100008047"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="足元に視線を落とす、憂姫。"]
+
+	[debug_scenario_no no="100008048"]
+
+	[maintext bt="1" text="視線の先には、規則正しい寝息をたてる椿妃の顔があった。"]
+
+	[debug_scenario_no no="100008051"]
+
+	[voice_play no="0010386"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="椿妃が……そんな研究してたのか？"]
+
+	[debug_scenario_no no="100008054"]
+
+	[bg_change name="bg0601" mode="F_FADE" count="60"]
+
+	[voice_play no="0040133"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="戦争末期、追い詰められた日本が危険な人体実験を繰り返してるって話、聞いたことあるんだ。"]
+
+	[debug_scenario_no no="100008057"]
+
+	[voice_play no="0040134"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="製造の禁止されていた毒ガスや細菌兵器と同じくらい、倫理的に許されるものではなかったって。"]
+
+	[debug_scenario_no no="100008060"]
+
+	[bg_change name="bg0146" mode="F_FADE" count="60"]
+
+	[voice_play no="0040135"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="冥婚の行われた神社の洞窟が、もしかしたら人体実験を行う巨大な実験トンネルだったとしたら――。"]
+
+	[debug_scenario_no no="100008063"]
+
+	[voice_play no="0040136"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="その秘密を守るために祠を建てて、冥婚なんていう前時代的な風習を行って誤魔化したとしたら――。"]
+
+	[debug_scenario_no no="100008066"]
+
+	[voice_play no="0010387"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="ただの怖い祠だと思って、誰も近づかない……か。"]
+
+	[debug_scenario_no no="100008069"]
+
+	[voice_play no="0040137"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="学者の宿命みたいなものだよ……。"]
+
+	[debug_scenario_no no="100008070"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[voice_play no="0040138"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="純粋な知的好奇心とは時に、忌まわしい怪物を生み出してしまう。"]
+
+	[debug_scenario_no no="100008073"]
+
+	[bg_change name="bg0560" mode="F_FADE" count="60"]
+
+	[voice_play no="0040139"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="セルゲイ・ブリュコネンコ博士は犬の頭部を切り離して、人工的に血液を循環させることよって頭部だけで生き続ける犬を産みだした。"]
+
+	[debug_scenario_no no="100008076"]
+
+	[voice_play no="0040140"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="ジョバンニ・アルディーニ博士は死体に高圧電流を流して、あたかも生きているようにその身体を操った。"]
+
+	[debug_scenario_no no="100008079"]
+
+	[voice_play no="0040141"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="彼らが行おうとしたのは、蘇生――。"]
+
+	[debug_scenario_no no="100008080"]
+
+	[voice_play no="0040142"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="医療の行きつく先は死体の復活であり、死の克服。"]
+
+	[debug_scenario_no no="100008083"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[voice_play no="0010388"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="椿妃も……同じことをしたってことか……。"]
+
+	[debug_scenario_no no="100008084"]
+
+	[voice_play no="0010389"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="いや、椿妃だけじゃない、一夜先輩も――。"]
+
+	[debug_scenario_no no="100008087"]
+
+	[voice_play no="0040143"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="学者の夢だよ。"]
+
+	[debug_scenario_no no="100008088"]
+
+	[voice_play no="0040144"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="人の命を長らえさせれば人々の称賛を受けるのだから、死者を復活させれば神になれるって考えてしまう。"]
+
+	[debug_scenario_no no="100008090"]
+
+	[bg_change name="bg0541" mode="F_FADE" count="60"]
+
+	[se_play no="219" count="0"]
+
+	[maintext bt="1" text="オレは……虚ろな瞳を浮かべて、のそのそ動き回る死体を見つめていた。"]
+
+	[debug_scenario_no no="100008092"]
+
+	[maintext bt="1" text="動く死体だらけだ。"]
+
+	[debug_scenario_no no="100008093"]
+
+	[maintext bt="1" text="もうこの地上では、人間は生存できることはないと思うくらいの……絶望的な光景だった。"]
+
+	[debug_scenario_no no="100008096"]
+
+	[se_stop]
+
+	[voice_play no="0010390"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="あれのどこが、復活なんだよ。"]
+
+	[debug_scenario_no no="100008099"]
+
+	[voice_play no="0010391"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="死体は何をどうしたって、死体のままだ。"]
+
+	[debug_scenario_no no="100008100"]
+
+	[voice_play no="0010392"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="人間には戻れない、ましてや……化け物にも……。"]
+
+	[debug_scenario_no no="100008103"]
+
+	[voice_play no="0040145"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="たぶん祠の奥から出て来たんだろうね、一夜先輩の作った赤い人とは、感じが違う。"]
+
+	[debug_scenario_no no="100008106"]
+
+	[voice_play no="0040146"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="ねえお兄ちゃん、もうちょっと近づいてみようよ。"]
+
+	[debug_scenario_no no="100008109"]
+
+	[voice_play no="0010393"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="……オマエは正気なのか、憂姫。"]
+
+	[debug_scenario_no no="100008111"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="猫のように身を屈めながら、街路樹を伝って移動を開始する憂姫。"]
+
+	[debug_scenario_no no="100008113"]
+
+	[maintext bt="1" text="好奇心に負けて、大型犬の鼻先にネコパンチを繰り出すような結果にならなければいいが……。"]
+
+	[debug_scenario_no no="100008116"]
+
+	[bg_change name="bg0520" mode="F_FADE" count="60"]
+
+	[chara_app name="YUKI" body="000" face="022" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040147"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="ふんふんふん――。"]
+
+	[debug_scenario_no no="100008117"]
+
+	[chara_app name="YUKI" body="000" face="008" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040148"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="あっちだよ、お兄ちゃん。"]
+
+	[debug_scenario_no no="None"]
+
+	[chara_del name="YUKI" count="30"]
+
+	[batch]
+
+	[debug_scenario_no no="100008119"]
+
+	[maintext bt="1" text="匂いを嗅ぎ分けたのか、憂姫が塀と塀の間のわずかな隙間を潜り始める。"]
+
+	[debug_scenario_no no="100008120"]
+
+	[maintext bt="1" text="もう完全に猫だった。"]
+
+	[debug_scenario_no no="100008124"]
+
+	[bg_change name="bg0154" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="損傷が激しく人の住まなくなった家を抜けると、オレ達はそこで異様な光景を目撃した。"]
+
+	[debug_scenario_no no="100008126"]
+
+	[maintext bt="1" text="死体がしゃがみ込んで、むしゃむしゃと何かを頬張っている。"]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg0002" mode="F_FADE" count="24"]
+
+	[batch]
+
+	[debug_scenario_no no="100008128"]
+
+	[bg_change name="bg0560" mode="F_FADE" count="60"]
+
+	[se_play no="039-1" count="0"]
+
+	[maintext bt="1" text="ゴリゴリ――メキメキ――バキバキ――。"]
+
+	[debug_scenario_no no="100008130"]
+
+	[bgm_stop count="30"]
+
+	[se_play no="039-2" count="0"]
+
+	[maintext bt="1" text="乾いた音と、水の滴る音。"]
+
+	[debug_scenario_no no="100008133"]
+
+	[bg_change name="bg0530" mode="F_FADE" count="120"]
+
+	[se_play no="563" count="0"]
+
+	[voice_play no="0010394"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="アイツら……何を食べてるんだ？"]
+
+	[debug_scenario_no no="100008136"]
+
+	[voice_play no="0040149"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="人だよ……。"]
+
+	[debug_scenario_no no="100008137"]
+
+	[bg_change name="bg0601" mode="F_FADE" count="60"]
+
+	[se_stop]
+
+	[voice_play no="0040150"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="一夜先輩の作り出した赤い人は、細菌兵器に汚染され、遺伝子が改変された人間の……なれの果て。"]
+
+	[debug_scenario_no no="100008140"]
+
+	[bgm_play no="24" count="30"]
+
+	[voice_play no="0040151"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="椿妃さんの生み出した動く死体も同じ原理だとしたら、食べるものも同じになる。"]
+
+	[debug_scenario_no no="100008143"]
+
+	[voice_play no="0040152"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="きっと遺伝子を改変させるのに、細菌かウィルスを使ってるんだと思う。"]
+
+	[debug_scenario_no no="100008146"]
+
+	[voice_play no="0040153"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="人でも、死体でも復活させるほど強力な細菌……。"]
+
+	[debug_scenario_no no="100008147"]
+
+	[voice_play no="0040154"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="一度暴走したら、止められない。"]
+
+	[debug_scenario_no no="100008150"]
+
+	[voice_play no="0040155"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="じゃあ一夜先輩は、停止スイッチを作らなかったのか？"]
+
+	[debug_scenario_no no="100008153"]
+
+	[voice_play no="0040156"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="一夜先輩は定期的に、自分の兵隊に餌を与えていた。"]
+
+	[debug_scenario_no no="100008154"]
+
+	[voice_play no="0040157"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="必須アミノ酸の、リジンだよ。"]
+
+	[debug_scenario_no no="100008157"]
+
+	[voice_play no="0040158"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="封じ込めるために、わざと遺伝的に欠陥を与えた。"]
+
+	[debug_scenario_no no="100008158"]
+
+	[voice_play no="0040159"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="必須アミノ酸のリジンが欠乏すれば、時間が経てば死んでしまう。"]
+
+	[debug_scenario_no no="100008161"]
+
+	[bg_change name="bg0560" mode="F_FADE" count="60"]
+
+	[voice_play no="0040160"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="身体中から、血液を流してね……。"]
+
+	[debug_scenario_no no="100008163"]
+
+	[maintext bt="1" text="動き回る死体なのに、食べなければ死んでしまうというのは変な感じがした。"]
+
+	[debug_scenario_no no="100008166"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[voice_play no="0010395"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="まあ、わかったよ。"]
+
+	[debug_scenario_no no="100008167"]
+
+	[voice_play no="0010396"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="必須アミノ酸ってことは……。"]
+
+	[debug_scenario_no no="100008170"]
+
+	[voice_play no="0040161"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="そうだよ、お兄ちゃん。"]
+
+	[debug_scenario_no no="100008171"]
+
+	[bg_change name="bg0521" mode="F_FADE" count="60"]
+
+	[voice_play no="0040162"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="リジンは人間の体内に含まれてる、わたしにも、お兄ちゃんにも。"]
+
+	[debug_scenario_no no="100008174"]
+
+	[voice_play no="0040163"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="人を食べれば、生き延びられるんだ。"]
+
+	[debug_scenario_no no="100008175"]
+
+	[voice_play no="0040164"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="人為的に作られた、トランスジェニック生物の悲劇だね。"]
+
+	[debug_scenario_no no="100008177"]
+
+	[bg_change name="bg0560" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="周囲には濃厚な血の臭いが広がっている。"]
+
+	[debug_scenario_no no="100008178"]
+
+	[maintext bt="1" text="憂姫が辿ってきたのは、これだったのか……。"]
+
+	[debug_scenario_no no="100008180"]
+
+	[maintext bt="1" text="妙に甘ったるくて、乳臭くて、生臭い。"]
+
+	[debug_scenario_no no="100008181"]
+
+	[maintext bt="1" text="人間が本能的に危険を感じる、そんな匂いだ。"]
+
+	[debug_scenario_no no="100008183"]
+
+	[maintext bt="1" text="餓鬼のように人間を貪り喰う死体達から、感情を感じた。"]
+
+	[debug_scenario_no no="100008185"]
+
+	[bg_change name="bg0530" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="彼らから感じるのは、怒りだ。"]
+
+	[debug_scenario_no no="100008187"]
+
+	[maintext bt="1" text="死んでもなお、生き血を求める死体達。"]
+
+	[debug_scenario_no no="100008188"]
+
+	[maintext bt="1" text="地獄という言葉以外、形容するものはない。"]
+
+	[debug_scenario_no no="100008191"]
+
+	[bg_change name="bg0147" mode="F_FADE" count="60"]
+
+	[voice_play no="0040165"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="ここは夜の世界だよ。"]
+
+	[debug_scenario_no no="100008192"]
+
+	[voice_play no="0040166"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="あそこで蠢いている影は、わたし達と違う何かじゃない。"]
+
+	[debug_scenario_no no="100008195"]
+
+	[voice_play no="0040167"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="似てるんだよ、わたし達と――。"]
+
+	[debug_scenario_no no="100008198"]
+
+	[voice_play no="0040168"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="昼間に生活しているわたし達が投影された、鏡像の世界なんだよ。"]
+
+	[debug_scenario_no no="100008201"]
+
+	[voice_play no="0040169"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="人を食べる死体が何でおぞましいと感じるかというと、そんな不気味な化け物の中に、嫌な自分を見いだすから。"]
+
+	[debug_scenario_no no="100008204"]
+
+	[voice_play no="0040170"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="自分が落ちるところまで落ちれば、空腹に空腹を重ねれば……きっと人だって食べてしまう。"]
+
+	[debug_scenario_no no="100008207"]
+
+	[voice_play no="0040171"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="人のなれの果て、わたし達のあるかもしれない未来、おぞましくて目を背けたくなるような現実が、今目の前にある。"]
+
+	[debug_scenario_no no="100008210"]
+
+	[voice_play no="0040172"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="だから……嫌悪感を感じるの。"]
+
+	[debug_scenario_no no="100008213"]
+
+	[voice_play no="0040173"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="わたし達人間は元から凶暴で、他人を虐げて踏みつける醜い生き物なんだよ。"]
+
+	[debug_scenario_no no="100008216"]
+
+	[voice_play no="0040174"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="暴力や虐待は許せないと言っている人ほど、ネットでは過激に他人を批判したり、威嚇や言葉の暴力を振るう。"]
+
+	[debug_scenario_no no="100008219"]
+
+	[voice_play no="0040175"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="そんなわたし達の醜い内面を、椿妃さんはこの世界に呼び出したのかもしれない――。"]
+
+	[debug_scenario_no no="100008222"]
+
+	[voice_play no="0040176"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="人が死ぬのを拒否したら、きっとああなるのかもね。"]
+
+	[debug_scenario_no no="100008223"]
+
+	[voice_play no="0040177"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="椿妃さんはそれを、実験によって実証したのかもしれない。"]
+
+	[debug_scenario_no no="100008225"]
+
+	[maintext bt="1" text="こんな忌まわしいものを、椿妃は作り出したのだろうか？"]
+
+	[debug_scenario_no no="100008227"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[bgm_stop count="30"]
+
+	[maintext bt="1" text="椿妃が復活した理由が、こんなもののためなんて……。"]
+
+	[debug_scenario_no no="None"]
+
+	[se_play no="562" count="0"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg0002" mode="F_FADE" count="24"]
+
+	[batch]
+
+	[debug_scenario_no no="100008230"]
+
+	[bg_change name="ev02405" mode="F_FADE" count="60"]
+
+	[voice_play no="0060592"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="――違いますわ。"]
+
+	[debug_scenario_no no="100008233"]
+
+	[se_play no="563" count="0"]
+
+	[voice_play no="0010397"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="……椿妃？"]
+
+	[debug_scenario_no no="100008236"]
+
+	[voice_play no="0060593"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="こっちです。"]
+
+	[debug_scenario_no no="100008238"]
+
+	[maintext bt="1" text="いつの間に起き出したのか、椿妃がオレの後ろに立っていた。"]
+
+	[debug_scenario_no no="100008240"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="42"]
+
+	[se_play no="501" count="0"]
+
+	[maintext bt="1" text="腕を取ると、暗闇の中を駆けていく。"]
+
+	[debug_scenario_no no="100008241"]
+
+	[maintext bt="1" text="死体達は食べるのに夢中なのか、椿妃の声にも反応を示さなかった。"]
+
+	[debug_scenario_no no="100008244"]
+
+	[bg_change name="bg0154" mode="F_FADE" count="120"]
+
+	[se_stop]
+
+	[chara_app name="YUKI" body="000" face="003" count="30" place="DEFAULT" z_pos="Z_CHAR"]
+
+	[voice_play no="0040178"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="――ちょっと、お兄ちゃん！？"]
+
+	[debug_scenario_no no="100008245"]
+
+	[voice_play no="0040179"]
+
+	[speaker name="憂姫" id="hoge"]
+
+	[maintext bt="1" text="どこ行くの！？"]
+
+	[debug_scenario_no no="None"]
+
+	[chara_del name="YUKI" count="30"]
+
+	[batch]
+
+	[debug_scenario_no no="100008247"]
+
+	[maintext bt="1" text="走る速度が速かったせいか、憂姫はオレ達と死体とを交互に見比べ竦んでしまう。"]
+
+	[debug_scenario_no no="100008250"]
+
+	[voice_play no="0010398"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="待ってろ、憂姫。"]
+
+	[debug_scenario_no no="100008251"]
+
+	[voice_play no="0010399"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="すぐに戻る。"]
+
+	[debug_scenario_no no="100008257"]
+
+	[bg_change name="bg0002" mode="F_FADE" count="42"]
+
+	[se_play no="561" count="0"]
+
+	[maintext bt="1" text="暗い夜道の向こうに、華やかな光が連なっていた。"]
+
+	[debug_scenario_no no="100008259"]
+
+	[bg_change name="bg0151" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="ほのかな光と華やかな光とが、列をなして複雑に折り重なっていく。"]
+
+	[debug_scenario_no no="100008261"]
+
+	[maintext bt="1" text="わびしい通りの奥に、ガス灯の炎で明るんだ家々が現れる。"]
+
+	[debug_scenario_no no="100008262"]
+
+	[maintext bt="1" text="それは子供のころ親に手を引かれて歩いた、古びた記憶を再生してるかのようだ。"]
+
+	[debug_scenario_no no="100008264"]
+
+	[bg_change name="bg0002" mode="F_FADE" count="60"]
+
+	[se_stop]
+
+	[maintext bt="1" text="古い家並みと、くすんだ商店街。"]
+
+	[debug_scenario_no no="100008265"]
+
+	[bg_change name="bg0105" mode="F_FADE" count="120"]
+
+	[se_play no="560" count="0"]
+
+	[maintext bt="1" text="戸棚の奥のアルバムを覗いたときのような、ピントのボケた不思議な景色。"]
+
+	[debug_scenario_no no="100008267"]
+
+	[maintext bt="1" text="一度も見たことはない風景だ。"]
+
+	[debug_scenario_no no="100008268"]
+
+	[maintext bt="1" text="なのに、涙が出るほど懐かしく感じる。"]
+
+	[debug_scenario_no no="100008270"]
+
+	[maintext bt="1" text="ここはいったい、どこだ？"]
+
+	[debug_scenario_no no="100008271"]
+
+	[maintext bt="1" text="どうしてオレ達の街に、こんな通りがあるんだ？"]
+
+	[debug_scenario_no no="100008273"]
+
+	[maintext bt="1" text="温かくて、懐かしくて、そして……居心地がいい。"]
+
+	[debug_scenario_no no="100008275"]
+
+	[bg_change name="bg0002" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="時間の流れの中に取り残されたような、闇夜に浮かぶロウソクの火のようなものだ。"]
+
+	[debug_scenario_no no="100008276"]
+
+	[maintext bt="1" text="心が緩んで、落ち着く。"]
+
+	[debug_scenario_no no="100008278"]
+
+	[bg_change name="bg6005" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="瞳の奥に、明るい光が流れ込んでいく。"]
+
+	[debug_scenario_no no="100008280"]
+
+	[maintext bt="1" text="眩しくて切なくて、目を開けていられない。"]
+
+	[debug_scenario_no no="100008282"]
+
+	[bg_change name="bg0111" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="――オレは、気付いてしまった。"]
+
+	[debug_scenario_no no="100008284"]
+
+	[maintext bt="1" text="この世界が60数年前に失われた、昭和の幻影だってことに。"]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg0002" mode="F_FADE" count="120"]
+
+	[se_stop]
+
+	[mainwin_close]
+
+	[txtwaitset count="60"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="120"]
+
+	[txtwaitset count="120"]
+
+	[batch]
+
+	[file_change no="202" label="sure1"]
+
+
+[return]
