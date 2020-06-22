@@ -1,0 +1,555 @@
+// chapter:2 - 1
+[debug_scenario_no no="None"]
+
+*sure1
+
+	[spflag_set name="chapter201" num="1"]
+
+	[debug_scenario_no no="None"]
+
+	[chapter no="2"]
+
+	[debug_scenario_no no="None"]
+
+	[purchase_check key="2"]
+
+	[debug_scenario_no no="100007518"]
+
+	[bg_change name="bg6001" mode="F_FADE" count="1"]
+
+	[se_play no="560" count="0"]
+
+	[txtwaitset count="3"]
+
+	[batch]
+
+	[debug_scenario_no no="100007521"]
+
+	[bg_change name="bg6006" mode="F_FADE" count="3"]
+
+	[txtwaitset count="4"]
+
+	[batch]
+
+	[debug_scenario_no no="100007523"]
+
+	[bg_change name="bg6007" mode="F_FADE" count="6"]
+
+	[txtwaitset count="1"]
+
+	[batch]
+
+	[debug_scenario_no no="100007526"]
+
+	[bg_change name="bg6008" mode="F_FADE" count="3"]
+
+	[txtwaitset count="2"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg6009" mode="F_FADE" count="2"]
+
+	[txtwaitset count="3"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg6010" mode="F_FADE" count="3"]
+
+	[txtwaitset count="6"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg6011" mode="F_FADE" count="18"]
+
+	[txtwaitset count="2"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg6012" mode="F_FADE" count="120"]
+
+	[txtwaitset count="3"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="120"]
+
+	[txtwaitset count="48"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg7203" mode="F_FADE" count="180"]
+
+	[txtwaitset count="300"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="180"]
+
+	[se_stop]
+
+	[txtwaitset count="180"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[batch]
+
+	[debug_scenario_no no="None"]
+
+	[batch]
+
+	[debug_scenario_no no="100007533"]
+
+	[bg_change name="ev02405" mode="F_FADE" count="60"]
+
+	[se_play no="567" count="0"]
+
+	[mainwin_open type="2"]
+
+	[voice_play no="0010340"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="asdfad"]
+
+	[debug_scenario_no no="100007536"]
+
+	[voice_play no="0010341"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="就算你再怎么喜欢哥哥，死后如果一直有恋物癖的话，我也很难做出反应。"]
+
+	[debug_scenario_no no="100007538"]
+
+	[bg_change name="bg0136" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="就像乌云滚滚涌起一样，倒在地上的尸体开始爬起来。。"]
+
+	[debug_scenario_no no="100007540"]
+
+	[maintext bt="1" text="这是幻觉吗……还是说，是梦幻呢……。"]
+
+	[debug_scenario_no no="100007542"]
+
+	[maintext bt="1" text="山茶妃的脸上布满了死亡的阴影，脸上充满了冰冻般的美丽。。"]
+
+	[debug_scenario_no no="100007544"]
+
+	[maintext bt="1" text="qadfa"]
+
+	[debug_scenario_no no="100007547"]
+
+	[bg_change name="ev02405" mode="F_FADE" count="60"]
+
+	[bgm_play no="18" count="30"]
+
+	[se_stop]
+
+	[voice_play no="0060536"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="s"]
+
+	[debug_scenario_no no="100007548"]
+
+	[voice_play no="0060537"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="df"]
+
+	[debug_scenario_no no="100007551"]
+
+	[voice_play no="0060538"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007554"]
+
+	[voice_play no="0060539"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="sd"]
+
+	[debug_scenario_no no="100007555"]
+
+	[voice_play no="0060540"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="f"]
+
+	[debug_scenario_no no="100007558"]
+
+	[voice_play no="0060541"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007561"]
+
+	[voice_play no="0060542"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="sd"]
+
+	[debug_scenario_no no="100007564"]
+
+	[voice_play no="0060543"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="fa"]
+
+	[debug_scenario_no no="100007565"]
+
+	[voice_play no="0060544"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="sd"]
+
+	[debug_scenario_no no="100007567"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="f"]
+
+	[debug_scenario_no no="100007568"]
+
+	[maintext bt="1" text="as"]
+
+	[debug_scenario_no no="100007571"]
+
+	[bg_change name="ev02405" mode="F_FADE" count="60"]
+
+	[voice_play no="0010342"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="df"]
+
+	[debug_scenario_no no="100007573"]
+
+	[bg_change name="bg0541" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007575"]
+
+	[maintext bt="1" text="s"]
+
+	[debug_scenario_no no="100007577"]
+
+	[se_play no="219" count="0"]
+
+	[maintext bt="1" text="df"]
+
+	[debug_scenario_no no="100007579"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="as"]
+
+	[debug_scenario_no no="100007580"]
+
+	[maintext bt="1" text="df"]
+
+	[debug_scenario_no no="100007582"]
+
+	[maintext bt="1" text="as"]
+
+	[debug_scenario_no no="100007584"]
+
+	[maintext bt="1" text="df"]
+
+	[debug_scenario_no no="100007585"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007587"]
+
+	[maintext bt="1" text="ds"]
+
+	[debug_scenario_no no="100007590"]
+
+	[bg_change name="ev07511" mode="F_FADE" count="60"]
+
+	[voice_play no="0010343"]
+
+	[speaker name="時雨" id="hoge"]
+
+	[maintext bt="1" text="fa"]
+
+	[debug_scenario_no no="100007593"]
+
+	[voice_play no="0060545"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="sd"]
+
+	[debug_scenario_no no="100007596"]
+
+	[voice_play no="0060546"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="f"]
+
+	[debug_scenario_no no="100007599"]
+
+	[voice_play no="0060547"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="asd"]
+
+	[debug_scenario_no no="100007600"]
+
+	[voice_play no="0060548"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="f"]
+
+	[debug_scenario_no no="100007603"]
+
+	[voice_play no="0060549"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="as"]
+
+	[debug_scenario_no no="100007606"]
+
+	[voice_play no="0060550"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="df"]
+
+	[debug_scenario_no no="100007609"]
+
+	[voice_play no="0060551"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007612"]
+
+	[voice_play no="0060552"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="sdf"]
+
+	[debug_scenario_no no="100007613"]
+
+	[voice_play no="0060553"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007615"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="sd"]
+
+	[debug_scenario_no no="100007617"]
+
+	[maintext bt="1" text="f"]
+
+	[debug_scenario_no no="100007618"]
+
+	[maintext bt="1" text="ds"]
+
+	[debug_scenario_no no="100007620"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007621"]
+
+	[maintext bt="1" text="sd"]
+
+	[debug_scenario_no no="100007623"]
+
+	[maintext bt="1" text="ff"]
+
+	[debug_scenario_no no="100007625"]
+
+	[maintext bt="1" text="as"]
+
+	[debug_scenario_no no="100007628"]
+
+	[bg_change name="ev07511" mode="F_FADE" count="60"]
+
+	[voice_play no="0060554"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="df"]
+
+	[debug_scenario_no no="100007630"]
+
+	[bg_change name="bg0001" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007631"]
+
+	[maintext bt="1" text="sd"]
+
+	[debug_scenario_no no="100007633"]
+
+	[maintext bt="1" text="f"]
+
+	[debug_scenario_no no="100007634"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007636"]
+
+	[bg_change name="bg0541" mode="F_FADE" count="60"]
+
+	[maintext bt="1" text="sdf"]
+
+	[debug_scenario_no no="100007637"]
+
+	[bgm_stop count="30"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007640"]
+
+	[bg_change name="ev07511" mode="F_FADE" count="60"]
+
+	[bgm_play no="11" count="30"]
+
+	[voice_play no="0060555"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="sd"]
+
+	[debug_scenario_no no="100007641"]
+
+	[voice_play no="0060556"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="f"]
+
+	[debug_scenario_no no="100007644"]
+
+	[voice_play no="0060557"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="as"]
+
+	[debug_scenario_no no="100007647"]
+
+	[voice_play no="0060558"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="df"]
+
+	[debug_scenario_no no="100007648"]
+
+	[voice_play no="0060559"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="asd"]
+
+	[debug_scenario_no no="100007651"]
+
+	[bg_change name="bg6007" mode="F_FADE" count="60"]
+
+	[voice_play no="0060560"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="f"]
+
+	[debug_scenario_no no="100007652"]
+
+	[bg_change name="bg6008" mode="F_FADE" count="60"]
+
+	[voice_play no="0060561"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="as"]
+
+	[debug_scenario_no no="100007655"]
+
+	[bg_change name="bg6009" mode="F_FADE" count="60"]
+
+	[voice_play no="0060562"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="df"]
+
+	[debug_scenario_no no="100007656"]
+
+	[bg_change name="bg6010" mode="F_FADE" count="60"]
+
+	[voice_play no="0060563"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="a"]
+
+	[debug_scenario_no no="100007659"]
+
+	[bg_change name="bg6011" mode="F_FADE" count="60"]
+
+	[voice_play no="0060564"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="sdf"]
+
+	[debug_scenario_no no="100007662"]
+
+	[voice_play no="0060565"]
+
+	[speaker name="椿妃" id="hoge"]
+
+	[maintext bt="1" text="人的丑陋才是地狱。"]
+
+	[debug_scenario_no no="100007665"]
+
+	[voice_play no="0060566"]
+
+	[speaker name="椿妃" id="hoge"]
+
